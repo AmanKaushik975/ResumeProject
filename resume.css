@@ -5,7 +5,7 @@ body{
 #main-body{
     height: 65vh;
     opacity: 0.7;
-    background-image: url(image.jpg);
+    background-image: url(black.jpg);
     background-size: cover;
     background-position: center;
     /* for paralax effect */
@@ -17,6 +17,7 @@ body{
     list-style: none;
     padding-left: 0px;
     text-align: center;
+    margin: 0px;
 }
 .unordered-List li{
     display: inline-block;
@@ -26,11 +27,22 @@ body{
 .unordered-List li a{
     color: aliceblue;
     text-decoration: none;
-    transition: color 0.1ms;
+    transition: color 0.5ms border-bottom 4s;
 }
-.unordered-List li a :hover{
+.unordered-List li a:hover{
     color:aqua;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid aliceblue;
 
+}
+#name-social-container{
+    margin-top: 20vh;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
 }
 
