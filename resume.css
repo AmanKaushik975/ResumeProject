@@ -55,9 +55,20 @@ body{
 .social-icons li a i:hover{
     box-shadow: 0px 0px 6px 4px rgba(230,196,196,0.3)
 }
-.profil-image{
-    margin-top: ;
-   
-    border-radius: 30px;
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+#profile-image{
+    height: 14rem;
+    width: 14rem;
+    margin: auto;
+    margin-top: -9vh;
+}
+#profile-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 
