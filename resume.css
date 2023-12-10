@@ -30,13 +30,22 @@ body{
 .horizotal-List li a{
     color: azure;
     text-decoration: none;
+    
+}
+.nav-menu li a{
     transition: color 0.5s, border-bottom 4s;
 }
-.horizotal-List a:hover{    
+
+.nav-menu a:hover{    
     color:aqua;
     border-bottom: 3px solid aqua;
 
 }
+.social-icons a{
+    color:aqua;
+    text-decoration: none;
+}
+
 #name-social-container{
     margin-top: 20vh; /*space above the element*/
 
